@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Employee Management</title>
+
+<link rel="stylesheet" href="css/index.css">
+<style>
+.center {
+    text-align: center;
+    margin: auto;
+}
+</style>
+</head>
+
+
+
+<body style="background-color: powderblue;">
+
+   <div class="center">
+   
+
+       <h2>Employee Management Home</h2>
+
+      
+    </div>
+   <div class="container">
+        <div class="title">employee management Form</div>
+       <form action="addEmployee" method="post">
+
+           <span>Id:</span> <input type="text" name="Id"><br /> <span>Name:</span>
+            <input type="text" name="name"><br /> <span>MobileNo:</span>
+            <input type="tel" name="mobileNo"><br /> <span>EmialId:</span> 
+         <input type="text" name="position"><br /> <span>Manager:</span>
+            <input type="text" name="manager"><br /> <input
+                type="submit" value="Add Employee">
+        </form>
+    </div>
+    <hr class="solid">
+    <div class="center">
+  <h2>Employees are listed below.</h2>
+    </div>
+
+
+
+
+
+</body>
+</html>
